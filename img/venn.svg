@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1384" height="792" viewBox="0, 0, 1384, 792">
+  <g id="Layer_1">
+    <path d="M396.133,757 C195.654,757 33.133,594.479 33.133,394 C33.133,193.521 195.654,31 396.133,31 C596.613,31 759.133,193.521 759.133,394 C759.133,594.479 596.613,757 396.133,757 z" fill="#98D5B6" fill-opacity="0.872"/>
+    <path d="M989.718,757 C789.239,757 626.718,594.479 626.718,394 C626.718,193.521 789.239,31 989.718,31 C1190.198,31 1352.718,193.521 1352.718,394 C1352.718,594.479 1190.198,757 989.718,757 z" fill="#989ED5" fill-opacity="0.633"/>
+    <path d="M692.926,184.995 C736.425,246.214 758.187,319.23 759.133,394 C759.093,471.327 735.95,539.319 692.926,603.005 C649.427,541.786 627.663,468.769 626.718,394 C626.758,316.674 649.902,248.68 692.926,184.995 z" fill="#98B3D5"/>
+  </g>
+  <g id="Layer_2" opacity="0.805">
+    <text transform="matrix(1, 0, 0, 1, 342.211, 423.679)">
+      <tspan x="-234.675" y="-56.78" font-family="HelveticaNeue-Bold" font-size="50" fill="#000000">people who want to </tspan>
+      <tspan x="-225.425" y="4.22" font-family="HelveticaNeue-Bold" font-size="50" fill="#000000">play with hardware</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 1025.043, 423.679)">
+      <tspan x="-186.925" y="-56.78" font-family="HelveticaNeue-Bold" font-size="50" fill="#000000">people who like</tspan>
+      <tspan x="-187.875" y="4.22" font-family="HelveticaNeue-Bold" font-size="50" fill="#000000">to write C / C++</tspan>
+    </text>
+  </g>
+</svg>

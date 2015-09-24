@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="700" height="574" viewBox="0, 0, 700, 574">
+  <g id="Layer_2" display="none">
+    <path d="M51.5,76.5 L51.5,516" fill-opacity="0" stroke="#9F9F9F" stroke-width="3"/>
+    <path d="M51.5,137.5 L100.5,137.5" fill-opacity="0" stroke="#9F9F9F" stroke-width="3"/>
+    <path d="M51.5,232 L100.5,232" fill-opacity="0" stroke="#9F9F9F" stroke-width="3"/>
+    <path d="M51.5,328.5 L100.5,328.5" fill-opacity="0" stroke="#9F9F9F" stroke-width="3"/>
+    <path d="M51.5,419.5 L100.5,419.5" fill-opacity="0" stroke="#9F9F9F" stroke-width="3"/>
+    <path d="M51.5,514.5 L100.5,514.5" fill-opacity="0" stroke="#9F9F9F" stroke-width="3"/>
+  </g>
+  <g id="Layer_1">
+    <g opacity="0">
+      <g>
+        <path d="M17.5,4.5 L200.5,4.5 C203.261,4.5 205.5,6.739 205.5,9.5 L205.5,79.5 C205.5,82.261 203.261,84.5 200.5,84.5 L17.5,84.5 C14.739,84.5 12.5,82.261 12.5,79.5 L12.5,9.5 C12.5,6.739 14.739,4.5 17.5,4.5 z" fill="#C9D4FA"/>
+        <path d="M17.5,4.5 L200.5,4.5 C203.261,4.5 205.5,6.739 205.5,9.5 L205.5,79.5 C205.5,82.261 203.261,84.5 200.5,84.5 L17.5,84.5 C14.739,84.5 12.5,82.261 12.5,79.5 L12.5,9.5 C12.5,6.739 14.739,4.5 17.5,4.5 z" fill-opacity="0" stroke="#FFFFFF" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 108.772, 43)">
+        <tspan x="-33.006" y="9" font-family="Helvetica" font-size="26" fill="#3F3F3F">driver</tspan>
+      </text>
+    </g>
+    <g>
+      <g>
+        <path d="M92.5,98.25 L275.5,98.25 C278.261,98.25 280.5,100.489 280.5,103.25 L280.5,173.25 C280.5,176.011 278.261,178.25 275.5,178.25 L92.5,178.25 C89.739,178.25 87.5,176.011 87.5,173.25 L87.5,103.25 C87.5,100.489 89.739,98.25 92.5,98.25 z" fill="#D8B7E1"/>
+        <path d="M92.5,98.25 L275.5,98.25 C278.261,98.25 280.5,100.489 280.5,103.25 L280.5,173.25 C280.5,176.011 278.261,178.25 275.5,178.25 L92.5,178.25 C89.739,178.25 87.5,176.011 87.5,173.25 L87.5,103.25 C87.5,100.489 89.739,98.25 92.5,98.25 z" fill-opacity="0" stroke="#FFFFFF" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 181.865, 135.75)">
+        <tspan x="-62.65" y="9" font-family="Helvetica" font-size="26" fill="#3F3F3F">chip config</tspan>
+      </text>
+    </g>
+    <g>
+      <g>
+        <path d="M92.5,192 L275.5,192 C278.261,192 280.5,194.239 280.5,197 L280.5,267 C280.5,269.761 278.261,272 275.5,272 L92.5,272 C89.739,272 87.5,269.761 87.5,267 L87.5,197 C87.5,194.239 89.739,192 92.5,192 z" fill="#DDDCA2"/>
+        <path d="M92.5,192 L275.5,192 C278.261,192 280.5,194.239 280.5,197 L280.5,267 C280.5,269.761 278.261,272 275.5,272 L92.5,272 C89.739,272 87.5,269.761 87.5,267 L87.5,197 C87.5,194.239 89.739,192 92.5,192 z" fill-opacity="0" stroke="#FFFFFF" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 181.723, 230.5)">
+        <tspan x="-46.749" y="9" font-family="Helvetica" font-size="26" fill="#3F3F3F">protocol</tspan>
+      </text>
+    </g>
+    <g>
+      <g>
+        <path d="M92.5,285.75 L275.5,285.75 C278.261,285.75 280.5,287.989 280.5,290.75 L280.5,360.75 C280.5,363.511 278.261,365.75 275.5,365.75 L92.5,365.75 C89.739,365.75 87.5,363.511 87.5,360.75 L87.5,290.75 C87.5,287.989 89.739,285.75 92.5,285.75 z" fill="#DDDCA2"/>
+        <g>
+          <path d="M92.5,285.75 L275.5,285.75 C278.261,285.75 280.5,287.989 280.5,290.75 L280.5,360.75 C280.5,363.511 278.261,365.75 275.5,365.75 L92.5,365.75 C89.739,365.75 87.5,363.511 87.5,360.75 L87.5,290.75 C87.5,287.989 89.739,285.75 92.5,285.75 z" fill="#DDDCA2"/>
+          <path d="M92.5,285.75 L275.5,285.75 C278.261,285.75 280.5,287.989 280.5,290.75 L280.5,360.75 C280.5,363.511 278.261,365.75 275.5,365.75 L92.5,365.75 C89.739,365.75 87.5,363.511 87.5,360.75 L87.5,290.75 C87.5,287.989 89.739,285.75 92.5,285.75 z" fill-opacity="0" stroke="#FFFFFF" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <g>
+        <path d="M92.5,379.5 L275.5,379.5 C278.261,379.5 280.5,381.739 280.5,384.5 L280.5,454.5 C280.5,457.261 278.261,459.5 275.5,459.5 L92.5,459.5 C89.739,459.5 87.5,457.261 87.5,454.5 L87.5,384.5 C87.5,381.739 89.739,379.5 92.5,379.5 z" fill="#A2DDB6"/>
+        <path d="M92.5,379.5 L275.5,379.5 C278.261,379.5 280.5,381.739 280.5,384.5 L280.5,454.5 C280.5,457.261 278.261,459.5 275.5,459.5 L92.5,459.5 C89.739,459.5 87.5,457.261 87.5,454.5 L87.5,384.5 C87.5,381.739 89.739,379.5 92.5,379.5 z" fill-opacity="0" stroke="#FFFFFF" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 185.269, 418)">
+        <tspan x="-71.295" y="9" font-family="Helvetica" font-size="26" fill="#3F3F3F">programmer</tspan>
+      </text>
+    </g>
+    <g>
+      <g>
+        <path d="M92.5,474.5 L275.5,474.5 C278.261,474.5 280.5,476.739 280.5,479.5 L280.5,549.5 C280.5,552.261 278.261,554.5 275.5,554.5 L92.5,554.5 C89.739,554.5 87.5,552.261 87.5,549.5 L87.5,479.5 C87.5,476.739 89.739,474.5 92.5,474.5 z" fill="#A2DDB6"/>
+        <path d="M92.5,474.5 L275.5,474.5 C278.261,474.5 280.5,476.739 280.5,479.5 L280.5,549.5 C280.5,552.261 278.261,554.5 275.5,554.5 L92.5,554.5 C89.739,554.5 87.5,552.261 87.5,549.5 L87.5,479.5 C87.5,476.739 89.739,474.5 92.5,474.5 z" fill-opacity="0" stroke="#FFFFFF" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 185.269, 513)">
+        <tspan x="-71.295" y="9" font-family="Helvetica" font-size="26" fill="#3F3F3F">programmer</tspan>
+      </text>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 492.805, 143)" opacity="0">
+      <tspan x="-188.805" y="7.5" font-family="Helvetica" font-size="22" fill="#737373">JSON configuration for each microchip</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 453.086, 231.25)" opacity="0">
+      <tspan x="-149.086" y="7.5" font-family="Helvetica" font-size="22" fill="#737373">self contained driver packages</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 360.278, 39.375)" opacity="0">
+      <tspan x="-128.278" y="7.5" font-family="Helvetica" font-size="22" fill="#737373">main CLI / library package</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 184, 325.75)">
+      <tspan x="-46.249" y="9" font-family="Helvetica" font-size="26" fill="#3F3F3F">protocol</tspan>
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=1024, user-scalable=no">
+
+  <title>refactoring the dinosaur / suz hinton</title>
+
+  <!--<link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>-->
+
+  <!-- Required stylesheet -->
+  <link rel="stylesheet" media="screen" href="core/deck.core.css">
+
+  <!-- Extension CSS files go here. Remove or add as needed. -->
+  <link rel="stylesheet" media="screen" href="extensions/goto/deck.goto.css">
+  <link rel="stylesheet" media="screen" href="extensions/navigation/deck.navigation.css">
+  <link rel="stylesheet" media="screen" href="extensions/scale/deck.scale.css">
+
+  <!-- Style theme. More available in /themes/style/ or create your own. -->
+  <link rel="stylesheet" media="screen" href="themes/style/swiss.css">
+  <link rel="stylesheet" media="screen" href="themes/style/mnml.css">
+  <link rel="stylesheet" media="screen" href="themes/style/noopkat.css">
+<!--   <link rel="stylesheet" media="screen" href="extensions/highlighter/shi_vim.min.css"> -->
+  <link rel="stylesheet" media="screen" href="extensions/highlightjs/default.min.css">
+
+  <!-- Transition theme. More available in /themes/transition/ or create your own. -->
+  <link rel="stylesheet" media="screen" href="themes/transition/fade.css">
+
+  <!-- Basic black and white print styles -->
+  <link rel="stylesheet" media="print" href="core/print.css">
+
+  <!-- Required Modernizr file -->
+  <script src="modernizr.custom.js"></script>
+</head>
+<body>
+  <div class="deck-container">
+
+    <!-- Begin slides. Just make elements with a class of slide. -->
+
+    <section class="slide coverslide">
+      <h1>refactoring the dinosaur<br/>
+      <span>- @noopkat -</span></h1>
+    </section>
+
+    <section class="slide">
+      <h2>why are we here</h2>
+      <ul>
+        <li><h3>lessons </h3></li>
+        <li><h3>love</h3></li>
+        <li><h3>loneliness</h3></li>
+      </ul>
+    </section>
+
+    <section class="slide greyout drop">
+      <h2>suz hinton</h2>
+      <ol>
+        <li><h3>@noopkat</h3></li>
+        <li><h3>NYC</h3></li>
+        <li><h3>front-end dev @ kickstarter</h3></li>
+      </ol>
+      <img class="fullimage superfade" src="img/nyc.jpg" alt="photo of NYC cityscape" />
+    </section>
+
+    <section class="slide whiteout">
+      <h2>&nbsp; </h2>
+      <img class="fullimage" src="img/meowshoes.jpg" alt="shoes decorated to look like cats, connected with a wire" />
+    </section>
+
+    <section class="slide whiteout">
+      <img src="img/purr01.jpg" alt="chunky black plastic bracelet worn on posed wrist, with 2 red 8-bit style hearts embossed on top of bracelet" />
+      <img src="img/purr02.jpg" alt="iPhone on table with text messages of kitten pictures displaying" />
+    </section>
+
+    <section class="slide whiteout">
+      <h2>&nbsp; </h2>
+      <img class="fullimage" src="img/pyoa01.JPG" alt="raspberry pi computer running off a battery and connected to a thermal printer" />
+    </section>
+
+    <section class="slide whiteout">
+      <h2>&nbsp; </h2>
+      <img class="fullimage" src="img/pyoa02.JPG" alt="thermal printed roll of paper with images and text on it" />
+    </section>
+
+    <section class="slide whiteout">
+      <img class="fullimage" src="img/oledjs.png" alt="oled screen on a breadboard, displaying a pixelated monchrome picture of a cat's face" />
+    </section>
+
+    <section class="slide whiteout">
+      <h2>&nbsp; </h2>
+      <img class="fullimage" src="img/ksr_architectual-digest.jpg" alt="KSR library" />
+    </section>
+
+    <section class="slide whiteout">
+
+      <img class="" style="width: 50%" src="img/zachwater.jpg" alt="Zach Dunham" />
+    </section>
+
+    <section class="slide whiteout">
+      <h2>&nbsp; </h2>
+      <img class="fullimage" src="img/pub_radio2.jpeg" alt="public radio" />
+    </section>
+
+    <section class="slide whiteout">
+      <img class="" width="200%" src="img/software_python.png" alt="public radio software" />
+    </section>
+
+    <section class="slide whiteout">
+      <h2>Problems</h2>
+      <ol>
+        <li><h3>Accessibility</h3></li>
+        <li><h3>Ugly</h3></li>
+        <li><h3>No progress reporting</h3></li>
+      </ol>
+    </section>
+
+    <section class="slide whiteout">
+      <img class="" width="200%" src="img/software_python.png" alt="public radio software" />
+    </section>
+
+    <section class="slide whiteout">
+      <img class="" width="200%" src="img/software_python_beachball.png" alt="public radio software" />
+    </section>
+
+    <section class="slide whiteout">
+       <img class="" style="top: 20%" src="img/nodejs.png"  alt="NodeJS logo" />
+    </section>
+
+    <section class="slide whiteout">
+      <img class="fullimage" src="img/loltweet.png"  alt="Morpheus: “Do you take the blue pill or the red pill?” JavaScript community: 'We didn’t _quite_ like either pill, so we made a green one'." />
+    </section>
+
+    <section class="slide whiteout">
+      <h2>&nbsp; </h2>
+      <img class="fullimage" src="img/pub_radio2.jpeg" alt="public radio" />
+    </section>
+
+    <section class="slide whiteout">
+      <img class="fullimage" style="width:50%; left: 20%" src="img/attiny45.jpg" alt="attiny45" />
+    </section>
+
+    <section class="slide whiteout">
+      <h2>Atmel® ATtiny85</h2>
+      <ol>
+        <li><h3>4KB program memory</h3></li>
+        <li><h3>256B EEPROM memory</h3></li>
+        <li><h3>6 I/O lines</h3></li>
+        <li><h3>runs up to 20MHz</h3></li>
+      </ol>
+    </section>
+
+    <section class="slide whiteout">
+      <h1>€1</h1>
+    </section>
+
+    <section class="slide whiteout">
+      <h1>EEPROM and prog memory diagram placeholder</h1>
+    </section>
+
+
+    <section class="slide whiteout">
+      <img class="fullimage" src="img/rude.png" alt="Do the maths properly. It will all be in words. You then display a byte location counter with word content. Sit down and use consistent sizes / reports. David." />
+    </section>
+
+    <section class="slide whiteout">
+      <img class="fullimage" src="img/sadpuppy.jpg" style="top: -30%;" alt="a very sad puppy with its head down, alone next to a park bench. It has been left behind and is very lonely." />
+    </section>
+
+    <section class="slide whiteout">
+      <h1>high barrier to entry</h1>
+    </section>
+
+    <section class="slide whiteout">
+      <h1>I really want to change that</h1>
+    </section>
+
+    <section class="slide whiteout">
+      <h1>current toolchain</h1>
+    </section>
+
+    <section class="slide whiteout">
+      <img class="fullimage" src="img/toolchain.svg"  style="top: 19%" alt="avr toolchain icons" />
+    </section>
+
+    <section class="slide whiteout">
+      <img class="fullimage" src="img/toolchain2.svg"  style="top: 19%" alt="avr toolchain icons" />
+    </section>
+
+    <section class="slide whiteout">
+      <img class="fullimage" src="img/avrdude-icon.svg"  style="top: 22%" alt="avrdude bin exec icon, text: avrdude, < 500KB" />
+    </section>
+
+    <section class="slide whiteout">
+      <h2>AVRDUDE</h2>
+      <ol>
+        <li><h3>AVR Downloader/UploaDEr</h3></li>
+      </ol>
+    </section>
+
+    <section class="slide whiteout">
+      <img class="fullimage" src="img/code-programmer-chip.svg"  style="top: 18%" alt="laptop, programmer and chip in a row, with labels above them" />
+    </section>
+
+    <section class="slide whiteout">
+      <h2>avrdude strengths</h2>
+      <ol>
+        <li><h3>it works really well</h3></li>
+        <li><h3>been around a long time</h3></li>
+        <li><h3>traction++</h3></li>
+      </ol>
+    </section>
+
+    <section class="slide whiteout">
+      <h2>avrdude limitations</h2>
+      <ol>
+        <li><h3>command line only</h3></li>
+        <li><h3>no tests</h3></li>
+        <li><h3>fragmented community</h3></li>
+      </ol>
+    </section>
+
+    <section class="slide whiteout">
+      <h1>creating a NodeJS alternative</h1>
+    </section>
+
+    <section class="slide whiteout">
+     <h1>why?</h1>
+    </section>
+
+    <section class="slide whiteout">
+      <h1>there is no hype fatigue here</h1>
+    </section>
+
+    <section class="slide whiteout">
+      <h2>NodeJS advantages</h2>
+      <ol>
+        <li><h3>small family of packages</h3></li>
+        <li><h3>easier to test</h3></li>
+        <li><h3>better flexibility for use</h3></li>
+        <li><h3>more accessible*</h3></li>
+      </ol>
+    </section>
+
+    <section class="slide whiteout">
+      <img height="600" style="padding-top: 10%" src="img/gulp-grunt.png" alt="logos of both grunt and gulp, node.js toolchain packages" />
+    </section>
+
+    <section class="slide whiteout">
+      <img width="500" style="position: absolute; left: 35%; top: 22%" src="img/avrgirl-logo.svg" alt="avrgirl logo" />
+    </section>
+
+    <section class="slide whiteout">
+      <h1>avrgirl</h1>
+    </section>
+
+    <section class="slide whiteout">
+      <h1>AVR General Isp pRogramming tooL</h1>
+    </section>
+
+    <section class="slide whiteout">
+      <img src="img/trollface.svg" style="position: absolute; left: 30%; top: 25%" alt="trollface" />
+    </section>
+
+    <section class="slide whiteout">
+     <img width="90%" src="img/avrgirl-arch.svg" alt="avrgirl architecture drawing" />
+    </section>
+
+    <section class="slide whiteout">
+     <img width="90%" src="img/avrgirl-arch2.svg" alt="avrgirl architecture drawing" />
+    </section>
+
+    <section class="slide whiteout">
+      <h1>current progress</h1>
+    </section>
+
+    <!-- <section class="slide whiteout">
+      <h2>releases</h2>
+      <ol>
+        <li><h3>avrgirl-arduino</h3></li>
+        <li><h3>avrgirl-chips-json</h3></li>
+        <li><h3>avrgirl-stk500v2</h3></li>
+        <li><h3>avrgirl-ispmkii</h3></li>
+      </ol>
+    </section>
+ -->
+    <section class="slide whiteout">
+      <img width="300%" src="img/avrgirl-releases.svg"  alt="four icons, each representing a released avrgirl package" />
+    </section>
+
+    <section class="slide whiteout">
+      <img height="1000" src="img/support.svg" alt="current supported microcontrollers" />
+    </section>
+
+
+    <section class="slide whiteout">
+      <img height="1000" src="img/pr.png" alt="screenshot of public radio app" />
+    </section>
+
+    <section class="slide coverslide">
+      <h1>let's play a game<br/>
+      <span> I need a volunteer </span></h1>
+    </section>
+
+    <section class="slide noscale">
+      <iframe src="canvas/brickmychip.html" seamless="seamless" scrolling="no" alt="'brick my chip' in text, with microchips flipping back and forth"></iframe>
+    </section>
+
+    <section class="slide whiteout">
+      <h2>choose your fuse</h2>
+      <ol>
+        <li><h3>94</h3></li>
+        <li><h3>123</h3></li>
+        <li><h3>107</h3></li>
+      </ol>
+    </section>
+
+    <section class="slide coverslide">
+      <h1>lessons<br/>
+      <span>aka holy crap what was I thinking</span></h1>
+    </section>
+
+    <section class="slide whiteout">
+      <h1>writing tests</h1>
+    </section>
+
+    <section class="slide whiteout">
+      <img class="fullimage" src="img/travis.svg"  style="top: 10%" alt="travis logo, with shipping box next to it on the right" />
+    </section>
+
+    <section class="slide whiteout">
+      <img class="fullimage" src="img/mock-usb.svg"  style="top: 10%" alt="travis logo, with shipping box next to it on the right" />
+    </section>
+
+    <section class="slide whiteout">
+      <h2>use proxyquire</h2>
+      <pre><code>
+        var proxyquire = require('proxyquire');
+        var usbmock = require('mock-usb');
+        var avrgirl = proxyquire
+                        .noCallThru()
+                        .load('avrgirl-ispmkii', { 'usb': usbmock });
+      </code></pre>
+    </section>
+
+    <section class="slide whiteout">
+      <img class="fullimage" src="img/bread.jpg" alt="sliced bread" />
+    </section>
+
+    <section class="slide whiteout">
+      <h2>use sinon.js</h2>
+      <pre><code>
+        test('read fuses', function (t) {
+          var fuses = 3;
+          var spyw = sinon.spy(a, 'write');
+          var spyr = sinon.spy(a, 'read');
+
+          a.readFuses(function(error, data) {
+            t.equals(spyw.callCount, fuses, 'called write for each fuse');
+            t.equals(spyr.callCount, fuses, 'called read for each fuse');
+          });
+        });
+     </code></pre>
+    </section>
+
+    <section class="slide whiteout">
+      <h1>bitwise logic</h1>
+    </section>
+
+    <section class="slide whiteout">
+      <img class="fullimage" src="img/hermione.png"  style="top: 0%" alt="commit message that says 'I feel like Hermione Granger right now'" />
+    </section>
+
+    <section class="slide whiteout">
+      <h1>there are always exceptions to any rule</h1>
+    </section>
+
+    <section class="slide whiteout">
+      <h1>google !== friend</h1>
+    </section>
+
+    <section class="slide whiteout">
+      <h1>github.com<br/>/noopkat/avrgirl</h1>
+    </section>
+
+    <section class="slide whiteout">
+      <h1>meow.noopkat.com</h1>
+    </section>
+
+    <section class="slide whiteout">
+      <h1>play with chips</h1>
+    </section>
+
+    <section class="slide whiteout">
+      <h1>you'll probably brick them</h1>
+    </section>
+
+    <section class="slide whiteout">
+      <h1>(which is half the fun)</h1>
+    </section>
+
+    <!-- FIN -->
+    <section class="slide blackout">
+      <h1 style="font-size: 3.2em"><pre>&gt; console.log('thank you');</pre></h1>
+    </section>
+
+    <section class="slide">
+      <h3>icon credits</h3>
+      <li><h4>'books' by Andrey Vasiliev from the Noun Project</h4></li>
+      <li><h4>'trophy' by  Dima Lagunov, RU from the Noun Project</h4></li>
+      <li><h4>'circuit' by Piotrek Chuchla from the Noun Project</h4></li>
+    <section>
+
+    <!-- End slides. -->
+
+    <!-- Begin extension snippets. Add or remove as needed. -->
+
+    <!-- deck.navigation snippet -->
+    <div aria-role="navigation">
+      <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+      <a href="#" class="deck-next-link" title="Next">&#8594;</a>
+    </div>
+
+    <!-- deck.goto snippet -->
+    <form action="." method="get" class="goto-form">
+      <label for="goto-slide">Go to slide:</label>
+      <input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+      <datalist id="goto-datalist"></datalist>
+      <input type="submit" value="Go">
+    </form>
+
+    <!-- End extension snippets. -->
+  </div>
+
+<!-- Required JS files. -->
+<script src="jquery.min.js"></script>
+<script src="core/deck.core.js"></script>
+
+<!-- Extension JS files. Add or remove as needed. -->
+<script src="extensions/menu/deck.menu.js"></script>
+<script src="extensions/goto/deck.goto.js"></script>
+<!-- <script src="extensions/status/deck.status.js"></script> -->
+<script src="extensions/navigation/deck.navigation.js"></script>
+<script src="extensions/scale/deck.scale.js"></script>
+<script src="extensions/iframe/deck.iframes.js"></script>
+<!-- <script src="extensions/highlighter/shi_jquery.min.js"></script> -->
+<script src="extensions/highlightjs/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+  $(function() {
+    // start slides
+    $.deck('.slide');
+
+    function fixZoom() {
+      var newZoom = 1;
+      if (window.innerWidth < 1050) {
+        newZoom = 0.5;
+      } else if (window.innerWidth < 1300) {
+        newZoom = 0.8;
+      }
+      document.body.style.zoom = newZoom;
+    }
+
+    // fix zoom if window size is fiddled with
+    window.addEventListener('resize', fixZoom);
+
+    // fix zoom on page load
+    $(document).ready(function() {
+      fixZoom();
+    });
+  });
+</script>
+</body>
+</html>
