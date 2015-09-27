@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1920" height="1080" viewBox="0, 0, 1920, 1080">
+  <g id="Layer_1">
+    <path d="M418.841,245 L814.493,245 C824.898,245 833.333,253.435 833.333,263.841 L833.333,442.826 C833.333,453.231 824.898,461.667 814.493,461.667 L418.841,461.667 C408.435,461.667 400,453.231 400,442.826 L400,263.841 C400,253.435 408.435,245 418.841,245 z" fill="#AACCEA"/>
+    <text transform="matrix(1, 0, 0, 1, 639.432, 353.333)">
+      <tspan x="-99.553" y="22.403" font-family="Helvetica" font-size="77" fill="#000000">GUI</tspan>
+    </text>
+    <path d="M1099.765,245 L1495.417,245 C1505.823,245 1514.258,253.435 1514.258,263.841 L1514.258,442.826 C1514.258,453.231 1505.823,461.667 1495.417,461.667 L1099.765,461.667 C1089.36,461.667 1080.924,453.231 1080.924,442.826 L1080.924,263.841 C1080.924,253.435 1089.36,245 1099.765,245 z" fill="#D5AAEA"/>
+    <text transform="matrix(1, 0, 0, 1, 1307.75, 356.473)">
+      <tspan x="-124.775" y="22.403" font-family="Helvetica" font-size="77" fill="#000000">upload </tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 691.207, 701)">
+      <tspan x="-257.207" y="-156.5" font-family="Helvetica" font-size="50" fill="#000000">+ any language</tspan>
+      <tspan x="-257.207" y="-96.5" font-family="Helvetica" font-size="50" fill="#000000">+ takes user input</tspan>
+      <tspan x="-257.207" y="-36.5" font-family="Helvetica" font-size="50" fill="#000000">+ calls upload process</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 1331.207, 701)">
+      <tspan x="-231.207" y="-156.5" font-family="Helvetica" font-size="50" fill="#000000">+ child process</tspan>
+      <tspan x="-231.207" y="-96.5" font-family="Helvetica" font-size="50" fill="#000000">+ writes to chip</tspan>
+    </text>
+    <g>
+      <path d="M877.5,353.5 L1019.7,353.5" fill-opacity="0" stroke="#000000" stroke-width="7"/>
+      <path d="M1019.7,360.1 L1037.3,353.5 L1019.7,346.9 z" fill="#000000" fill-opacity="1" stroke="#000000" stroke-width="7" stroke-opacity="1"/>
+    </g>
+  </g>
+</svg>

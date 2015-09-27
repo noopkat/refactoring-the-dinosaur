@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1920" height="1080" viewBox="0, 0, 1920, 1080">
+  <g id="Layer_1">
+    <text transform="matrix(1, 0, 0, 1, 602.069, 371)">
+      <tspan x="-363.069" y="-166.5" font-family="Helvetica" font-size="49" fill="#000000">MESSAGE START</tspan>
+      <tspan x="-363.069" y="-107.5" font-family="Helvetica" font-size="49" fill="#000000">SEQUENCE NUMBER</tspan>
+      <tspan x="-363.069" y="-48.5" font-family="Helvetica" font-size="49" fill="#000000">MESSAGE LENGTH (MSB)</tspan>
+      <tspan x="-363.069" y="10.5" font-family="Helvetica" font-size="49" fill="#000000">MESSAGE LENGTH (LSB)</tspan>
+      <tspan x="-363.069" y="69.5" font-family="Helvetica" font-size="49" fill="#000000">TOKEN</tspan>
+      <tspan x="-363.069" y="128.5" font-family="Helvetica" font-size="49" fill="#000000">MESSAGE BODY</tspan>
+      <tspan x="-363.069" y="187.5" font-family="Helvetica" font-size="49" fill="#000000">CHECKSUM</tspan>
+    </text>
+  </g>
+  <g id="Layer_2">
+    <text transform="matrix(1, 0, 0, 1, 982.022, 844)">
+      <tspan x="-743.023" y="-19.5" font-family="CourierNewPSMT" font-size="51" fill="#000000">[0x1B, 0x01, 0x00, 0x01, 0x0E, 0x01, 0x14]</tspan>
+    </text>
+  </g>
+</svg>
